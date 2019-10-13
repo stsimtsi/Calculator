@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+    android:id="@+id/la">
+
+        <TextView
+          android:id="@+id/title1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Insert 2 Numbers :"
+          android:textSize="20sp"
+          android:layout_gravity="center"
+
+          />
+        <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="5dp"
+          >
+        <TextView
+            android:id="@+id/num1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Number 1"
+          android:layout_gravity="center"
+          android:layout_marginLeft="10dp"
+          android:textSize="18sp"
+
+          />
+        <EditText
+          android:id="@+id/number1"
+          android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginLeft="4dp"
+          android:ems="10"
+          android:inputType="numberDecimal|numberSigned" >
+
+
+        </EditText>
+      </LinearLayout>
+        <LinearLayout
+          android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+          android:orientation="horizontal"
+         android:layout_marginTop="5dp"
+          >
+        <TextView
+            android:id="@+id/num2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Number 2"
+          android:layout_gravity="center"
+          android:layout_marginLeft="10dp"
+          android:textSize="18sp"
+          />
+        <EditText
+          android:id="@+id/number2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="4dp"
+          android:ems="10"
+          android:inputType="numberDecimal|numberSigned" >
+
+
+        </EditText>
+      </LinearLayout>
+        <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="5dp"
+          >
+        <TextView
+            android:id="@+id/res"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Result : "
+          android:layout_gravity="center"
+          android:layout_marginLeft="10dp"
+          android:textSize="18sp"
+          />
+        <TextView
+         android:id="@+id/result"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:layout_gravity="center"
+          android:textSize="18sp"
+          >
+
+
+        </TextView>
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+         android:orientation="horizontal"
+          android:layout_marginTop="5dp"
+          android:weightSum="1"
+          >
+        <Button
+         android:id="@+id/addButton"
+          android:layout_weight="0.5"
+        style="?android:attr/buttonStyleSmall"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="10dp"
+            android:layout_margin="5dp"
+          android:text="ADD" />
+
+        <Button
+          android:id="@+id/subButton"
+          android:layout_weight="0.5"
+          style="?android:attr/buttonStyleSmall"
+    android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="10dp"
+            android:layout_margin="5dp"
+         android:text="SUBTRACT" />
+       </LinearLayout>
+
+<LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="5dp"
+         android:weightSum="1"
+         >
+        <Button
+         android:id="@+id/mulButton"
+          android:layout_weight="0.5"
+          style="?android:attr/buttonStyleSmall"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="10dp"
+            android:layout_margin="5dp"
+    android:text="MULTIPLY" />
+
+        <Button
+          android:id="@+id/divButton"
+          android:layout_weight="0.5"
+          style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="10dp"
+            android:layout_margin="5dp"
+          android:text="DIVIDE" />
+        </LinearLayout>
+
+    <Button
+        android:text="SPEAK"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ttspeak" />
+
+    <Button
+        android:text="STOP"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ttstop" />
+
+
+</LinearLayout>

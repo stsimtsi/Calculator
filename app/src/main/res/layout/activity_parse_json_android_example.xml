@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/lo"
+    tools:context="com.example.simplecalculator.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="Choose a User Profile:"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#ff9966"
+        />
+
+    <Button
+        android:id="@+id/bparsejson"
+        android:text="Large with speech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#ff9966"
+        android:textColor= "#ffffff"
+        android:textSize="20dp"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/bparsejson2"
+        android:text="Dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#ff9966"
+        android:textColor= "#ffffff"
+        android:textSize="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/output"
+        android:paddingTop="10px"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="" />
+
+</LinearLayout>
